@@ -15,7 +15,7 @@ This project checks a library book’s return date against its due date and repo
 3. Start the server.
 
 ## Repo
-[markleyclassroom](https://github.com/wg0996425/slots.git)
+[markleyclassroom](https://github.com/wg0996425/Library-Book-Due-Checker-.git)
 
 ## Screenshot of homepage
 ![alt](slotsOutput.png)
