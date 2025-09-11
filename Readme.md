@@ -18,6 +18,6 @@ This project checks a library book’s return date against its due date and repo
 [markleyclassroom](https://github.com/wg0996425/Library-Book-Due-Checker-.git)
 
 ## Screenshot of homepage
-![alt](slotsOutput.png)
+![Demonstration of program with sample output](demo.png)
 ## Markdown Cheat Sheet
 [cheatsheet](https://www.markdownguide.org/cheat-sheet/)

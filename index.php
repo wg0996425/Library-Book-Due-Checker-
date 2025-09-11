@@ -10,9 +10,22 @@
     <title>WVG Library Book Due Checker</title>
 </head>
 
-<body>
-    <h1 class="mt-3">Library Book Due Checker</h1>
-    <?php include 'form.php'; ?>
+<body style="background:gainsboro ; color:darkslategray">
+    <h1 class="mt-3 mx-6 text-center">Library Book Due Checker</h1>
+    
+    <!-- All this php does is call both form.php and functions.php into use. You can visibly
+    see form.php as opposed to functions.php, but functions.php is still neccessary to be called 
+    because of its function. -->
+    <?php 
+        require 'form.php';
+        require 'functions.php';
+    ?>
+
+    <!-- The function call is separated so that I can add bootstrap to it. Is it the best way to do this? No.
+    Does it work? Yes. -->
+    <h3 class="pt-4 text-center fw-light">
+        <?php checkDueDate() ?>
+    </h3>
 </body>
 
 </html>

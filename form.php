@@ -11,16 +11,18 @@
 </head>
 
 <body>
-    <form class="container mt-4">
+    <!-- Remember: It's required that you have a 'name="id"' in the input! I spent 2 hours figuring out why it
+    wasn't working :( -->
+    <form class="container mt-5 mb-5 w-50" action="index.php" method="get">
         <!-- RETURN DATE -->
         <div class="mb-3">
             <label for="returnDate" class="form-label">Return Date:</label>
-            <input type="date" class="form-control" id="returnDate" aria-describedby="returnDate" required>
+            <input type="date" class="form-control" id="returnDate" name="returnDate" aria-describedby="returnDate" required>
         </div>
         <!-- DUE DATE -->
         <div class="mb-3">
             <label for="dueDate" class="form-label">Due Date:</label>
-            <input type="date" class="form-control" id="dueDate" required>
+            <input type="date" class="form-control" id="dueDate" name="dueDate" required>
         </div>
         <!-- SUBMIT BUTTON -->
         <button type="submit" class="btn btn-primary">Submit</button>
