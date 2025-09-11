@@ -21,11 +21,17 @@
         require 'functions.php';
     ?>
 
-    <!-- The function call is separated so that I can add bootstrap to it. Is it the best way to do this? No.
-    Does it work? Yes. -->
-    <h3 class="pt-4 text-center fw-light">
-        <?php checkDueDate() ?>
+    <!-- The function call and output return is separated so that I can add bootstrap to it. 
+    Is it the best way to do this? No. Does it work? Yes. -->
+    <h3 class="pt-1 text-center fw-light fst-italic">
+        <?php 
+            echo 'Return Date: ' . $_GET['returnDate'] . '<br>';
+            echo 'Due Date: ' . $_GET['dueDate'] . '<br>';
+        ?>
     </h3>
+    <h2 class="pt-2 text-center fw-light">
+        <?php checkDueDate() ?>
+    </h2>
 </body>
 
 </html>

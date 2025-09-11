@@ -9,6 +9,9 @@
             $returnDate = isset($_GET['returnDate']) ? date_create($_GET['returnDate']) : '';
             $dueDate = isset ($_GET['dueDate']) ? date_create($_GET['dueDate']) : '';
 
+            //
+            
+
             // Basically a switch/match statement. I think an if/elif statement does it better
             // as I don't have to call any variables to match
             if ($returnDate > $dueDate) {
